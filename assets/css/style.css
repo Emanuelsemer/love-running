@@ -34,12 +34,7 @@ header {
     box-shadow: 0 2px 2px #3a3a3a; 
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-
-
-
-
-}
+    align-items: baseline;}
 
 header a {
     text-decoration: none;
@@ -49,7 +44,7 @@ header a {
 h1 {
     font-family:'Verdana', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #252525
 }
 
@@ -103,7 +98,7 @@ main {
     /* Make main element take up any surplus space to push footer down */ 
     flex: 1 0 auto; 
     margin-top: 47px;
-    
+
 }
 
 /* Footer */
